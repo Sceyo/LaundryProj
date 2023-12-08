@@ -40,8 +40,8 @@ function Footer () {
                     <li><Link to="/services">&gt; Services</Link></li>
                     <li><Link to="/about">&gt; About Us</Link></li>
                     <li><Link to="/contact-us">&gt; Contact Us</Link></li>
-                    <li><Link to="/pricing">&gt; Pricing</Link></li>
-                    <li><Link to="/terms-conditions">&gt; Terms & Conditions</Link></li>
+                    <li><Link to="/services#fifthS">&gt; Pricing</Link></li>
+                
                 </ul>
         </div>
         <img src={VerticalLine} alt="vertical line" className='verticalLine2'/>

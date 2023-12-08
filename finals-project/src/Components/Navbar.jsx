@@ -13,12 +13,12 @@ function Navbar() {
                     <div className='navbar'>
                         <div className='login-sign'>
                             <div className='frame'>
-                                <Link to="/login" className='login'>
+                                {/* <Link to="/login" className='login'>
                                 <div className='text-wrapper'>LOGIN</div>
                                 </Link>
                                 <Link to="/signup" className='signup-btn'>
                                 <div className='div'>SIGNUP</div>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className='tel'>
@@ -36,7 +36,7 @@ function Navbar() {
                                 <div className='text-wrapper4'>Smart Wash</div>
                                 <img src={CompanyLogo} alt='Company Logo' className='company-logo' />
                             </div>
-                            <div className='nav-bar'>
+                            <div className='nav-bar' style={{marginLeft:'-70px'}}>
                                 <Link to="/">HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                                 <Link to="/services">SERVICES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                                 <Link to="/about">ABOUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>

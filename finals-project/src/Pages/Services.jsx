@@ -125,7 +125,7 @@ export default function Services(){
                     </div>    
                 </div>
 
-                <div className='fourthS'>
+                <div className='fourthS' id = "fifthS">
                     <h1>Pricing</h1>
                     <STable/>
                     <div className = 'FSText' style ={{fontSize: '20px', marginLeft: '270px',marginTop: '40px'}}>
