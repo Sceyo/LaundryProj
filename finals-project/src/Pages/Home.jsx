@@ -1,4 +1,6 @@
 import './Home.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import home1 from '../Images/home1.png'
 import home2 from '../Images/home2.png'
 import home3 from '../Images/home3.png'
@@ -16,6 +18,8 @@ import michael from '../Images/michael.png'
 import Footer from '../Components/Footer'
 
 export default function Home() {
+  
+  
   return (
     <>
       <Navbar/>
@@ -27,24 +31,24 @@ export default function Home() {
               <div className="carousel-content">
                 <h1 className="carousel-caption-text">Laundry Delivery <br />Service</h1>
                 <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
-                <button type="button" className="custom-btn">Explore More</button>
-              </div>
+                <Link to="/services"> <button type="button" className="custom-btn"> Explore More </button> </Link> 
+             </div>
             </div>
             <div className="carousel-item">
                     <img src={home2} className="d-block w-100" alt="Slide 2" />
                       <div className="carousel-content">
                         <h1 className="carousel-caption-text">Laundry Delivery <br/>Service</h1>
                         <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
-                        <button type="button" className="custom-btn">Explore More</button>
-                      </div>
+                        <Link to="/services"> <button type="button" className="custom-btn"> Explore More </button> </Link> 
+                  </div>
                   </div>
                   <div className="carousel-item">
                     <img src={home3} className="d-block w-100" alt="Slide 3" />
                     <div className="carousel-content">
                         <h1 className="carousel-caption-text">Laundry Delivery <br/>Service</h1>
                         <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
-                        <button type="button" className="custom-btn">Explore More</button>
-                      </div>  
+                        <Link to="/services"> <button type="button" className="custom-btn"> Explore More </button> </Link> 
+                  </div>  
                   </div>
           </div>
           <div className="carousel-controls-container">
@@ -118,8 +122,9 @@ export default function Home() {
               <h2>Schedule Your First Pickup Now!</h2>
               <p>Discover the ease of Smart Delivery - 
 where your laundry needs meet efficiency. Join us on a journey to fresher, cleaner clothes without the hassle.</p>
-          <button type="button" className="custom-btn1" style={{marginTop: '120px', marginLeft: '50px'}}>Get Started</button>
-          <button type="button" className="custom-btn1" style={{marginTop: '-48px', marginLeft: '400px'}}>Learn More</button>
+             <a href="/contact-us" className="custom-btn1" style={{marginTop: '120px', marginLeft: '50px',width:'30%',textDecoration: 'none' }}> Get Started</a>
+             <a href="/about" className="custom-btn1" style={{marginTop: '-50px',marginLeft: '375px',width:'30%',textDecoration: 'none' }}> Learn More</a>
+            
           </div>
         </div>
       </div>

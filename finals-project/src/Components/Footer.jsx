@@ -10,23 +10,26 @@ import YoutubeLogo from '../Images/youtube.png';
 import Copyright from '../Images/copyright.png';
 
 function Footer () {
-    const [email, setEmail] = useState('');
+  
+  const [email, setEmail] = useState('');
 
-    const handleSubscribe = () => {
-        // Validate the email address
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            // Alert the user for an invalid email
-            alert('Please enter a valid email address.');
-            return;
-        }
-        // Perform login logic here
-        // For example, you can simulate a login delay with setTimeout
-        setTimeout(() => {
-            // Redirect to the homepage after successful login
-            alert('You have successfully subscribed to our newsletter!');
-        }, 1000); // Adjust the delay as needed
-    };
+  const handleInputChange = (e) => {
+      setEmail(e.target.value);
+  };
+  const handleSubscribe = () => {
+    // Validate the email address
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        // Alert the user for an invalid email
+        alert('Please enter a valid email address.');
+        return;
+    }
+
+    // Perform subscription logic here...
+    // For example, alert success and reset the email input
+    alert('You have successfully subscribed to our newsletter!');
+    setEmail(''); // Clear the email input after successful subscription
+};
     return (
         <footer className="footer">
           <div className="footer-section">
@@ -53,7 +56,7 @@ function Footer () {
                 placeholder="Enter Your Email"
                 className={`email-input ${email ? 'filled' : ''}`}
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={handleInputChange}
             />
       <button className="sub-btn" onClick={handleSubscribe}>
         Subscribe
@@ -62,7 +65,7 @@ function Footer () {
         <img src={VerticalLine} alt="vertical line" className='verticalLine3'/>
         <div className="social-media-section">
             <p className="social-media">Social Media</p>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/profile.php?id=61554654621825" target="_blank" rel="noopener noreferrer">
               <img src={FacebookLogo} alt="Facebook" className="social-icon" />
             </a>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">

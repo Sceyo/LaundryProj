@@ -1,30 +1,13 @@
 import './ContactForm.css'
+import Logo from '../Images/logo.svg';
 
 export default function ContSecond(){
     
     return(
         <>
-            <div className ="firstHalf">
-                    <h3>Say Hello!</h3>
-                    <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                    <input type="email" class="form-control custom-border" id="exampleFormControlInput1" placeholder="Enter Name"/>
-                    </div>
-
-                    <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
-                    <input type="email" class="form-control custom-border" id="exampleFormControlInput1" placeholder="+63"/>
-                    </div>
-                    <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control custom-border" id="exampleFormControlInput1" placeholder="@"/>
-                    </div>
-                    <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control custom-border" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your Message"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-primary" style={{backgroundColor: "#116A7B"}}>Submit</button>
-
+            <div className ="firstHalf" >
+                    <h3 style ={{marginLeft: '31%'}}>Say Hello to Washy!</h3>
+                    <img src ={Logo} style ={{marginLeft: '20%'}}/>
                 </div>
                 <div className = "secondHalf">
                     <div className = "tBody">

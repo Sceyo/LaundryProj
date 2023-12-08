@@ -10,7 +10,7 @@ function Navbar() {
     <div className='box'>
         <div className='nav'>
                 <div className='overlap'>
-                    <div className='navbar'>
+                    <div className='navbar' >
                         <div className='login-sign'>
                             <div className='frame'>
                                 {/* <Link to="/login" className='login'>
@@ -21,22 +21,22 @@ function Navbar() {
                                 </Link> */}
                             </div>
                         </div>
-                        <div className='tel'>
+                        <div className='tel' style ={{marginLeft:'-10%'}}>
                             <img src={telephone} alt='telephone' className='telephone'/> 
                             <div className='text-wrapper2'>123-4567-890</div>
                         </div>
-                        <div className='supp'>
+                        <div className='supp' style ={{marginLeft:'-10%'}}>
                             <img src={mail} alt='mail' className='mail'/>
                             <div className='text-wrapper3'>support@smartwash.com</div>
                         </div>
                     </div>
                     <div className='overlap-group-wrapper'>
                         <div className='overlap-group'>
-                            <div className='group'>
+                            <div className='group' style ={{marginLeft:'-10%'}}>
                                 <div className='text-wrapper4'>Smart Wash</div>
                                 <img src={CompanyLogo} alt='Company Logo' className='company-logo' />
                             </div>
-                            <div className='nav-bar' style={{marginLeft:'-70px'}}>
+                            <div className='nav-bar' style ={{marginLeft:'-12%'}}>
                                 <Link to="/">HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                                 <Link to="/services">SERVICES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                                 <Link to="/about">ABOUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
