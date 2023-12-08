@@ -65,7 +65,7 @@ export default function Services(){
                 </div>
 
                 <div className = "three">
-                    <h1>How It Works</h1>
+                    <h1>How We Work</h1>
                     <div className ="body3">
                         <div class="container3">
                             <div class="circCard2">
@@ -74,7 +74,7 @@ export default function Services(){
                                     <img src ={SU} style ={{height: '100px'}}/>
                                 </div>
                             </div>
-                            <p>Sign Up for an Account</p>
+                            <p>Input your information with us</p>
                             </div>
                             <div class="circCard2">
                             <div class="circle2">
@@ -87,31 +87,24 @@ export default function Services(){
                             <div class="circCard2">
                             <div class="circle2">
                                 <div class="innerCirc2">
-                                <img src ={PU} style ={{height: '100px'}}/>
+                                <img src ={LM} style ={{height: '100px',marginLeft: '-20px'}}/>
                                 </div>
                             </div>
-                            <p>Schedule Pickup</p>
+                            <p>We Take Care Of The Rest</p>
                             </div>
                            
                         
                     </div>
 
                     <div class="container4">
-                            <div class="circCard2">
-                            <div class="circle2">
-                                <div class="innerCirc2">
-                                <img src ={LM} style ={{height: '100px',marginLeft: '-20px'}}/>
-                                </div>
-                            </div>
-                            <p>We Take Care Of The Rest</p>
-                            </div>
-                            <div class="circCard2">
+
+                            <div class="circCard2" style ={{marginLeft: '15%'}}>
                             <div class="circle2">
                                 <div class="innerCirc2">
                                 <img src ={TO} style ={{height: '100px',marginLeft: '15px'}}/>
                                 </div>
                             </div>
-                            <p>Track Your Order</p>
+                            <p style ={{marginLeft: '-40px'}}>Get notified about your laundry</p>
                             </div>
                             <div class="circCard2">
                             <div class="circle2">
@@ -119,7 +112,7 @@ export default function Services(){
                                 <img src ={RC} style ={{height: '100px'}}/>
                                 </div>
                             </div>
-                            <p>Receive Neatly Folded Laundry</p>
+                            <p style ={{marginLeft: '-40px'}}>Receive Neatly Folded Laundry</p>
                             </div>
                         </div>
                     </div>    

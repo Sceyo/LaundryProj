@@ -16,6 +16,13 @@ import yuki from '../Images/yuki.png'
 import emily from '../Images/emily.png'
 import michael from '../Images/michael.png'
 import Footer from '../Components/Footer'
+import SU from '../Images/sign-up.png'
+import SE from '../Images/select.png'
+import PU from '../Images/pickup.png'
+import TO from '../Images/track order.png'
+import STable from '../Components/ServicesTable'
+import RC from '../Images/receive.png'
+import LM from '../Images/laundry-machine.png'
 
 export default function Home() {
   
@@ -29,8 +36,8 @@ export default function Home() {
             <div className="carousel-item active">
               <img src={home1} className="d-block w-100" alt="Slide 1" style={{zIndex: '1'}}/>
               <div className="carousel-content">
-                <h1 className="carousel-caption-text">Laundry Delivery <br />Service</h1>
-                <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
+                <h1 className="carousel-caption-text">Laundry Management <br />Service</h1>
+                <p className="carousel-paragraph-text">Freshness Brought to You</p>
                 <Link to="/services"> <button type="button" className="custom-btn"> Explore More </button> </Link> 
              </div>
             </div>
@@ -38,7 +45,7 @@ export default function Home() {
                     <img src={home2} className="d-block w-100" alt="Slide 2" />
                       <div className="carousel-content">
                         <h1 className="carousel-caption-text">Laundry Delivery <br/>Service</h1>
-                        <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
+                        <p className="carousel-paragraph-text">Freshness Brought to You</p>
                         <Link to="/services"> <button type="button" className="custom-btn"> Explore More </button> </Link> 
                   </div>
                   </div>
@@ -46,7 +53,7 @@ export default function Home() {
                     <img src={home3} className="d-block w-100" alt="Slide 3" />
                     <div className="carousel-content">
                         <h1 className="carousel-caption-text">Laundry Delivery <br/>Service</h1>
-                        <p className="carousel-paragraph-text">Freshness Delivered to Your Doorstep</p>
+                        <p className="carousel-paragraph-text">Freshness Brought to You</p>
                         <Link to="/services"> <button type="button" className="custom-btn"> Explore More </button> </Link> 
                   </div>  
                   </div>
@@ -66,9 +73,9 @@ export default function Home() {
       <div className= "second">
       <div className="secondOne">
           <div className='left'>
-            <h2 style= {{color: '#116A7B'}}>Welcome to Smart Delivery</h2>
+            <h2 style= {{color: '#116A7B'}}>Welcome to Smart Wash</h2>
             <h2 style={{textAlign: 'center',marginLeft: '-75px', marginTop: '30px', color: '#424242'}}>Your Gateway to Seamless <br/>Service!</h2>
-            <p style = {{fontSize: '25px'}}>At Smart Delivery, we are delighted to extend a warm welcome to you. Step into a world of convenience, where your needs are our top priority. Whether it's swift and reliable delivery or tailored services, we're here to redefine your experience. Explore the possibilities with Smart Delivery – where excellence meets efficiency.</p>
+            <p style = {{fontSize: '25px'}}>At Smart Wash, we are delighted to extend a warm welcome to you. Step into a world of convenience, where your needs are our top priority. Whether it's swift and reliable delivery or tailored services, we're here to redefine your experience. Explore the possibilities with Smart Delivery – where excellence meets efficiency.</p>
             <div className = "check">
             <h2 style = {{marginLeft: '20px',marginTop: '50px'}}><span class="checkmark" style ={{color: 'black', fontWeight: 'bold'}}>&#10003;</span>Quality</h2>
             <h2 style = {{marginTop: '-45px', marginLeft: '250px'}}><span class="checkmark" style ={{color: 'black', fontWeight: 'bold'}}>&#10003;</span>Convenience</h2>
@@ -119,8 +126,8 @@ export default function Home() {
         </div>
         <div className= 'tLeft'>
           <div className='whiteCard'>
-              <h2>Schedule Your First Pickup Now!</h2>
-              <p>Discover the ease of Smart Delivery - 
+              <h2>Schedule Your Dropoff Now!</h2>
+              <p>Discover the ease of Smart Wash - 
 where your laundry needs meet efficiency. Join us on a journey to fresher, cleaner clothes without the hassle.</p>
              <a href="/contact-us" className="custom-btn1" style={{marginTop: '120px', marginLeft: '50px',width:'30%',textDecoration: 'none' }}> Get Started</a>
              <a href="/about" className="custom-btn1" style={{marginTop: '-50px',marginLeft: '375px',width:'30%',textDecoration: 'none' }}> Learn More</a>
@@ -129,82 +136,57 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
         </div>
       </div>
       <div className = "fourthL">
-        <h1>How We Work</h1>
-        <h2>Working Process</h2>
-          <div className ="body4">
-             <div class="container1">
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>1</h1>
+              <h1>How We Work</h1>
+                    <div className ="body3">
+                        <div class="container3">
+                            <div class="circCard2">
+                            <div class="circle2">
+                                <div class="innerCirc2">
+                                    <img src ={SU} style ={{height: '100px'}}/>
+                                </div>
+                            </div>
+                            <p>Input your information with us</p>
+                            </div>
+                            <div class="circCard2">
+                            <div class="circle2">
+                                <div class="innerCirc2">
+                                <img src ={SE} style ={{height: '100px'}}/>
+                                </div>
+                            </div>
+                            <p>Select Your Service</p>
+                            </div>
+                            <div class="circCard2">
+                            <div class="circle2">
+                                <div class="innerCirc2">
+                                <img src ={LM} style ={{height: '100px',marginLeft: '-20px'}}/>
+                                </div>
+                            </div>
+                            <p>We Take Care Of The Rest</p>
+                            </div>
+                           
+                        
                     </div>
-                  </div>
-                  <p>Schedule Your Pickup</p>
-                </div>
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>2</h1>
-                    </div>
-                  </div>
-                  <p>Garment Assessment</p>
-                </div>
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>3</h1>
-                    </div>
-                  </div>
-                  <p>Tailored Cleaning Process</p>
-                </div>
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>4</h1>
-                    </div>
-                  </div>
-                  <p>Quality Control</p>
-                </div>
-               
-            </div>
 
-           <div class="container2">
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>5</h1>
-                    </div>
-                  </div>
-                  <p>Real-Time Tracking</p>
-                </div>
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>6</h1>
-                    </div>
-                  </div>
-                  <p>Packaging & Delivery</p>
-                </div>
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>7</h1>
-                    </div>
-                  </div>
-                  <p>Feedback & Support</p>
-                </div>
-                <div class="circCardH">
-                  <div class="circleH">
-                    <div class="innerCircH">
-                      <h1>8</h1>
-                    </div>
-                  </div>
-                  <p>Repeat or Customize</p>
-                </div>
-               
-            </div>
+                    <div class="container4">
 
-          </div>
+                            <div class="circCard2" style ={{marginLeft: '15%'}}>
+                            <div class="circle2">
+                                <div class="innerCirc2">
+                                <img src ={TO} style ={{height: '100px',marginLeft: '15px'}}/>
+                                </div>
+                            </div>
+                            <p style ={{marginLeft: '-40px'}}>Get notified about your laundry</p>
+                            </div>
+                            <div class="circCard2">
+                            <div class="circle2">
+                                <div class="innerCirc2">
+                                <img src ={RC} style ={{height: '100px'}}/>
+                                </div>
+                            </div>
+                            <p style ={{marginLeft: '-20px',width:'70%'}}>Receive Neatly Folded Laundry</p>
+                            </div>
+                        </div>
+                    </div>    
       </div>
 
 
@@ -218,14 +200,14 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
             <div className = "innerPlaque">
               <img src ={yuki}/>
               <h3>Yuki S.</h3>
-              <p>“Being a detail-oriented person, I have high standards for myself. Smart Delivery not only meets but exceeds those standards. From the precision in handling delicate fabrics to the seamless delivery, they’ve earned my trust. Smart Delivery is my go-to laundry service.”</p>
+              <p> “Being a detail-oriented person, I have high standards for myself. Smart Wash not only meets but exceeds those standards. From the precision in handling delicate fabrics to the seamless delivery, they’ve earned my trust. Smart Wash is my go-to laundry service.”</p>
             </div>
           </div>
           <div className = "plaque">
             <div className = "innerPlaque">
             <img src ={emily}/>
               <h3>Emily T.</h3>
-              <p>“Smart Delivery has been a game-changer for me! As a busy professional, I don’t have time for laundry. With their efficient service, I can focus on my work while they take care of my clothes. Plus, the freshness of my garments when they return is unmatched. Highly recommend!” </p>
+              <p>“Smart Wash has been a game-changer for me! As a busy professional, I don’t have time for laundry. With their efficient service, I can focus on my work while they take care of my clothes. Plus, the freshness of my garments when they return is unmatched. Highly recommend!” </p>
            
             </div>
           </div>
@@ -233,7 +215,7 @@ where your laundry needs meet efficiency. Join us on a journey to fresher, clean
             <div className = "innerPlaque">
             <img src ={michael}/>
               <h3>Michael S.</h3>
-              <p>“I was skeptical about laundry delivery services, but Smart Delivery exceeded my expectations. From the easy scheduling to the punctual delivery, everything was seamless. My clothes look and smell amazing. It’s like having a laundry fairy at my service!”</p>
+              <p> “I was skeptical about laundry delivery services, but Smart Wash exceeded my expectations. From the easy scheduling to the punctual delivery, everything was seamless. My clothes look and smell amazing. It’s like having a laundry fairy at my service!”</p>
            
             </div>
           </div>

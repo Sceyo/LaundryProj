@@ -53,7 +53,7 @@
     font-size: 30px;
 }
 
-.card{
+.card4{
     width: 700px;
     background-color: #116A7B;
     height: 300px;
@@ -67,7 +67,7 @@
     
 }
 
-.card img{
+.card4 img{
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -75,7 +75,7 @@
     margin-left: 44%;
 }
   
-.card h2{
+.card4 h2{
     color: white;
     margin-left: 44%;
 

@@ -34,36 +34,36 @@ export default function Reviews(){
       <div className="carousel-inner">
         {/* First slide */}
         <div className="carousel-item active">
-          <div className="card">
+          <div className="card4">
             <img src={yuki} className="circular-image" alt="Yuki's photo" />
             <h2>Yuki S.</h2>
             <div className="card-body">
               <p className="card-text">
-                “Being a detail-oriented person, I have high standards for myself. Smart Delivery not only meets but exceeds those standards. From the precision in handling delicate fabrics to the seamless delivery, they’ve earned my trust. Smart Delivery is my go-to laundry service.”
+                “Being a detail-oriented person, I have high standards for myself. Smart Wash not only meets but exceeds those standards. From the precision in handling delicate fabrics to the seamless delivery, they’ve earned my trust. Smart Wash is my go-to laundry service.”
               </p>
             </div>
           </div>
         </div>
         {/* Second slide */}
         <div className="carousel-item">
-        <div className="card">
+        <div className="card4">
             <img src={emily} className="circular-image" alt="Yuki's photo" />
             <h2>Emily T.</h2>
             <div className="card-body">
               <p className="card-text">
-              “Smart Delivery has been a game-changer for me! As a busy professional, I don’t have time for laundry. With their efficient service, I can focus on my work while they take care of my clothes. Plus, the freshness of my garments when they return is unmatched. Highly recommend!” 
+              “Smart Wash has been a game-changer for me! As a busy professional, I don’t have time for laundry. With their efficient service, I can focus on my work while they take care of my clothes. Plus, the freshness of my garments when they return is unmatched. Highly recommend!” 
               </p>
             </div>
           </div>
         </div>
         {/* Third slide */}
         <div className="carousel-item">
-        <div className="card">
+        <div className="card4">
             <img src={michael} className="circular-image" alt="Yuki's photo" />
             <h2>Michael S.</h2>
             <div className="card-body">
               <p className="card-text">
-              “I was skeptical about laundry delivery services, but Smart Delivery exceeded my expectations. From the easy scheduling to the punctual delivery, everything was seamless. My clothes look and smell amazing. It’s like having a laundry fairy at my service!”
+              “I was skeptical about laundry delivery services, but Smart Wash exceeded my expectations. From the easy scheduling to the punctual delivery, everything was seamless. My clothes look and smell amazing. It’s like having a laundry fairy at my service!”
               </p>
             </div>
           </div>

@@ -34,7 +34,7 @@ function Footer () {
         <footer className="footer">
           <div className="footer-section">
             <img src={CompanyLogo} alt="Smart Delivery Logo" className="logo" />
-            <p className="footer-text">Smart Delivery</p>
+            <p className="footer-text">Smart Wash</p>
           </div>
         <img src={VerticalLine} alt="vertical line" className='verticalLine1'/>
         <div className="quick-links-section">
