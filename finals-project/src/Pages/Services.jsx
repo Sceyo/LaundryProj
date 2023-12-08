@@ -32,16 +32,10 @@ export default function Services(){
                 
                 <div className = "secondS">
                     <div className="secondTwo">
-                        <h1>Our Services</h1>
+                    <h1>Our Services</h1>
                         <h2>What We Offer</h2>
-                        <div class="black-card">
-                        <div class = "cardbg">
-                        <img src = {delivery} />
-                        </div>
-                        
-                        <p class="background-text">Pickup & Delivery</p>
-                        </div>
-                        <div class="black-card">
+                    
+                        <div class="black-card" style ={{marginLeft: '-20px'}}>
                         <div class = "cardbg">
                         <img src = {WDF} />
                         </div>
