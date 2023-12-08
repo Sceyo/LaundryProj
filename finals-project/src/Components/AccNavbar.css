@@ -1,0 +1,26 @@
+.sidebar{
+    width: 20%;
+    background-color: #116A7B;
+    height: 100%;
+   
+  }
+  
+  /* Add this CSS to your stylesheet */
+.PIBLink ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .PIBLink ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Use default text color */
+  }
+  
+  /* Additional styling if needed */
+  .PIBLink ul li {
+    margin-bottom: 10px; /* Adjust spacing between list items */
+  }

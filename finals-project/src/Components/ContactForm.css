@@ -1,0 +1,98 @@
+.first {
+    background-image: url('../Images/Contact us1.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.first h1{
+    margin-left: 450px;
+    top: -50px;
+    position: absolute;
+}
+
+.first h2{
+    position: absolute;
+    top: 230px;
+    margin-left: 380px;
+}
+
+.Second {
+    display: flex;
+    height: 600px;
+}
+
+.firstHalf {
+    flex: 1;
+    background-color: #CDC2AE;
+    height: 100%;
+}
+
+.firstHalf h3{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.firstHalf input,
+.firstHalf textarea {
+    width: 60%; 
+    margin-left: 100px;
+    top: 100px;
+    
+}
+
+.firstHalf label{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.firstHalf button{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.secondHalf {
+    flex: 1;
+    background-color: #CDC2AE;
+    height: 100%;
+    
+}
+
+.tBody{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+   
+}
+
+.tBody p {
+    
+    word-break: normal;
+    white-space: normal;
+    width: 50%;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    background-color: #CDC2AE;
+}
+
+.custom-border {
+    border: 2px solid black;
+    
+}
+
+  .visit-link {
+    text-decoration: none; 
+    color: #116A7B; 
+    font-size: 17px;
+    font-weight: bold;
+  }

@@ -1,0 +1,48 @@
+.CContainer{
+    height: 100vh;
+    width: 100%;
+    background-color:  #cdc2ae;
+    display: flex;
+}
+
+.cartB{
+    background-color: #cdc2ae;
+    height: 70%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.cartB h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #116A7B;
+}
+
+.lineC1 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .imageButton {
+    border: none; /* Remove the button border */
+    background: none; /* Remove the button background */
+    padding: 0; /* Remove default padding */
+  
+  }
+
+  .rmvBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+    text-decoration: none; /* Optionally, add underline for button-like appearance */
+  }
+  

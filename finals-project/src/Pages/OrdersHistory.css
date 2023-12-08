@@ -1,0 +1,37 @@
+.OHBody {
+    display: flex;
+    height: 90vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #CDC2AE;
+  }
+
+  .mainO{
+    width: 80%;
+    height: 100%;
+  }
+
+  .mainO1 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .mainO2 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .mainO3 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .mainO4 label{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+  }

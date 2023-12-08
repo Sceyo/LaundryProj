@@ -1,0 +1,93 @@
+.firstR {
+    background-image: url('../Images/reviews1.png');  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 400px;
+    width: 100%;
+    margin-top: 165px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.firstR h1{
+    
+    top: 90px;
+    position: absolute;
+    margin-top: 170px;
+   font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+
+.firstR h2{
+    position: absolute;
+    top: 230px;
+    font-size: 50px;
+    margin-top: 160px;
+    color: white;
+    font-weight: lighter;
+}
+
+.secondR{
+    height: 700px;
+    width: 100%;
+    position: flex;
+    background-color: white;
+    margin-top: -8px;
+}
+
+.secondR h1,
+.secondR p{
+    text-align: center;
+}
+
+.secondR h1{
+    font-size: 50px;
+    color: #116A7B;
+    padding-top: 10px;
+}
+
+.secondR p{
+    color: #424242;
+    font-size: 30px;
+}
+
+.card{
+    width: 700px;
+    background-color: #116A7B;
+    height: 300px;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+
+.card-body p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.card img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 44%;
+}
+  
+.card h2{
+    color: white;
+    margin-left: 44%;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background: none; 
+    border: none; 
+    padding: 0; 
+  }

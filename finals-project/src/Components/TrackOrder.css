@@ -1,0 +1,53 @@
+/*.Order{
+    height: 500px;
+    width: 100%;
+    position:inherit;
+    margin-top: 150px;
+}
+
+.Order .lead {
+   margin-top: 60px;
+}
+
+.track-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    margin-left: auto;
+}
+
+
+
+.buttons {
+    position: relative; 
+    margin-left: 650px; 
+    margin-top: -60px; 
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    margin-right: 320px;
+    width: 200px; 
+    height: 80px;
+}
+
+.buttons1 {
+    position: relative; 
+    margin-left: 1000px;
+    margin-top: 0px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.buttons1 button {
+    margin-right: 320px;
+    width: 200px; 
+    height: 80px;
+}

@@ -1,0 +1,11 @@
+/*.carousel-item img {
+    max-width: 60%;
+    height: 300px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+.carousel{
+    top: 100px;
+}

@@ -1,0 +1,54 @@
+.OTBody {
+    display: flex;
+    height: 90vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #CDC2AE;
+  }
+
+  .mainOT{
+    width: 80%;
+    height: 100%;
+  }
+
+  .line3 img{
+    height: 80px;
+    margin-left: 23px;
+  }
+
+  .line3 h3{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+
+  .waitingLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -50px;
+    margin-left: -70px;
+  }
+  
+  .line {
+    border-top: 2px solid #000; /* Change the color and width of the line */
+    flex: 1;
+    margin: 0 10px; /* Adjust the margin as needed */ /* Adjust the margin as needed */
+    width: 100px;
+  }
+  
+  .circle {
+    width: 20px; /* Adjust the size of the circle */
+    height: 20px; /* Adjust the size of the circle */
+    border-radius: 50%;
+    background-color: green; /* Change the color of the circle */
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  

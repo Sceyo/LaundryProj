@@ -1,0 +1,195 @@
+
+.firstS {
+    background-image: url('../Images/Services.png');  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 400px;
+    width: 100%;
+    margin-top: 165px;
+    display: flex; /* Use display: flex; to create a flex container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.firstS h1{
+    
+    top: 90px;
+    position: absolute;
+    margin-top: 170px;
+   
+    color: white;
+    font-size: 60px;
+}
+
+.firstS h2{
+    position: absolute;
+    top: 230px;
+    font-size: 50px;
+    margin-top: 160px;
+    color: white;
+}
+
+.secondS{
+    height: 550px;
+    margin-top: 0px;
+    background-color: #CDC2AE;
+}
+
+.secondTwo{
+    height: 35%;
+    width: 100%;
+    background-color: #CDC2AE;
+    text-align: center;
+  }
+  
+  .secondTwo h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #116A7B;
+    padding-top: 30px;
+  }
+  
+  .secondTwo h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #424242;
+  }
+
+  .three{
+    height: 900px;
+  width: 100%;
+  background-color: #CDC2AE;
+  }
+
+  .three h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #116A7B;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .container3,
+  .container4 {
+    display: flex;
+    justify-content: center; /* Align items in the center horizontally */
+    align-items: center;
+    margin-top: 50px; /* Adjust margin as needed */
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin-left: 60px;
+  }
+  
+  .circCard2 {
+    margin: 0 30px 0 30px; /* Adjust margin as needed */
+    text-align: center;
+    flex: 1; /* Distribute available space equally among the items */
+    height: 300px;
+  }
+  
+  .circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+  }
+  
+  .innerCirc2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .innerCirc2 h1 {
+    font-size: 120px;
+  }
+  
+  .circCard2 p {
+    font-size: 27px;
+    width: 80%;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+.fourthS{
+  height: 800px;
+  background-color: #CDC2AE;
+}
+
+/* CSS code to add borders between table cells */
+.styled-table {
+  border-collapse: collapse;
+  margin-left: 20%;
+}
+
+.styled-table th, .styled-table td {
+  border: 2px solid #000;
+  padding: 8px;
+  width: 400px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #D9D9D9;
+}
+
+.styled-table th{
+  height: 60px;
+  text-align: center;
+  background-color: #116A7B;
+  color: white;
+}
+
+.fourthS h1{
+  color: #116A7B;
+  font-size: 60px;
+  font-weight: 500;
+  
+  text-align: center;
+}
+
+.styled-table th h1{
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+}
+.styled-table th p{
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.fifthS{
+  height: 700px;
+  width: 100%;
+  background-color: #CDC2AE;
+}
+
+.sixthS{
+  width: 100%;
+  height: 600px;
+  background-color: #CDC2AE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixthS h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #116A7B;
+  text-align: center;
+}
+
+.sixthS h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #424242;
+}

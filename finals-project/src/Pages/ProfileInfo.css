@@ -1,0 +1,62 @@
+.PIBody {
+    display: flex;
+    height: 90vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #CDC2AE;
+  }
+  
+  .mainB{
+    width: 80%;
+    height: 100%;
+    padding-top: 20px;
+  }
+
+  .mainB1 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .mainB2 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .mainB3 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .imageButton {
+    border: none; /* Remove the button border */
+    background: none; /* Remove the button background */
+    padding: 0; /* Remove default padding */
+    margin-left: 15px;
+  }
+  
+  .SetP{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #116A7B;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .DelA{
+    height: 50px;
+    width: 300px;
+    margin-top: 100px;
+    color: white;
+    font-weight: 600;
+    margin-left: 35%;
+    background-color: #7B1111;
+    border-radius: 10px;
+    font-size: 20px;
+  }

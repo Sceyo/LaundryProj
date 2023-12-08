@@ -1,0 +1,91 @@
+
+  .PContainer {
+    height: 100vh;
+    width: 100vw;
+    background-Color: #cdc2ae;
+    display: flex;
+    overflow-y: auto;
+  }
+
+.paymentB{
+  
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+ 
+}
+
+.titleP{
+    font-size: 30px;
+    font-weight: 600;
+    color: #116A7B;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.titleP1{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5%;
+   text-align: center;
+}
+
+.titleP2{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.mainP1{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.mainP1 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .mainP2{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.mainP2 label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .lineP1{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .lineP1 h3{
+    
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .lineP1 h2{
+    
+    font-weight: bold;
+   
+  }
+
+  .lineP1 button{
+    height: 100px;
+    width: 500px;
+    background-color: #116A7B;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
